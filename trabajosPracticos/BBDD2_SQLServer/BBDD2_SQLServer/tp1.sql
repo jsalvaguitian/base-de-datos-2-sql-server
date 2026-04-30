@@ -85,7 +85,7 @@ GROUP BY Color;
 /*EJERCICIO N°12 
 Sumar todos los niveles de stocks aceptables que deben existir
 para los productos con color Black. (Ayuda: sum)*/
-SELECT SUM(SafetyStockLevel) AS StockAceptables
+SELECT SUM(SafetyStockLevel) AS SumaStockAceptables
 FROM Production.Product
 WHERE Color = 'Black';
 
@@ -104,9 +104,8 @@ Clases (Ayuda: campo Class)
 18- Listar la descripción de los productos y su respectivo color. Sólo
 nos interesa caracterizar al color con los valores: Black, Silver
 u Otro. Por lo cual si no es ni silver ni black se debe indicar
-Otro. (Ayuda: utilizar case).*/
-
-/*Listar el nombre de la categoría, el nombre de la subcategoría
+Otro. (Ayuda: utilizar case).
+Listar el nombre de la categoría, el nombre de la subcategoría
 y la descripción del producto. (Ayuda: join)
 20- Listar la cantidad de subcategorías que posean asignado los
 productos. (Ayuda: distinct).*/
