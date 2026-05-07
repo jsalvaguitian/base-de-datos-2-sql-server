@@ -1,3 +1,9 @@
+/*
+	TRABAJO PRACTICO N°1
+	Alumna: Jesica Belen Salva
+
+*/
+
 /* EJERCICIO N°1
 Listar los códigos y descripciones de todos los productos
 */
